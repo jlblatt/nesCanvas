@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <trackList>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/the_prelude.mp3</location>
+		<creator>FFVI</creator>
+		<title>The Prelude</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/terra.mp3</location>
+		<creator>FFVI</creator>
+		<title>Terra (Overworld)</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/battle_theme.mp3</location>
+		<creator>FFVI</creator>
+		<title>Battle Theme</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/edgar_and_sabin.mp3</location>
+		<creator>FFVI</creator>
+		<title>Edgar and Sabin (Figaro)</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/shadow.mp3</location>
+		<creator>FFVI</creator>
+		<title>Shadow</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/techno_de_chocobo.mp3</location>
+		<creator>FFVI</creator>
+		<title>Techno de Chocobo</title>
+	</track>
+
+        <track>
+		<location>http://cortexture.net/nescanvas/midi/the_decisive_battle.mp3</location>
+		<creator>FFVI</creator>
+		<title>The Decisive Battle</title>
+	</track>
+
+    </trackList>
+</playlist>

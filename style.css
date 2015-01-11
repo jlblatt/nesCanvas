@@ -1,0 +1,45 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline;
+}
+:focus { outline: 0; }
+body { line-height: 1; color: black; }
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight: normal; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+body { background: #000000; margin: 20px; height: 100%; color: #dddddd; font-size: 11px; font-family: Helvetica, Arial; }
+
+#select { position: absolute;  top: 70px; left: 40px; width: 755px; height: 570px; }
+#char_sel, #chan_sel { display: block; margin-left: 50px; }
+#char_sel { height: 130px; }
+#chan_sel { height: 160px; }
+#char_sel_img, #chan_sel_img, #nick_sel_img { margin: 0px 0px 20px 10px; display: block; }
+.char, .chan { float: left; font-size: 14px; line-height: 28px; text-align: center; border: 1px solid #000000; }
+.char { padding: 8px 25px 3px 25px; }
+.chan { padding: 8px 20px 3px 20px; }
+.chan img { border: 1px solid #444444; margin-top: 7px; }
+div.char:hover, div.chan:hover { border: 1px solid #888888; cursor: pointer; font-weight: bold; }
+#nick_sel { margin: 8px 0px 0px 50px; width: 350px; padding: 4px; border: 1px solid #888888; background: #222222; color: #eeeeee; font-size: 24px; font-family: Helvetica, Arial; font-weight: normal; }
+#login { float: right; margin-right: 50px; width: 120px; height: 34px; background: url(images/login.png) 0 0 no-repeat; }
+#login:hover { cursor: pointer; background-position: 0 -34px; }
+
+#left_col { float: left; width: 805px; }
+#info { padding: 0px 0px 10px 1px;}
+#background { border: 1px solid #999999; width: 800px; }
+#portrait { float: left; width: 80px; height: 80px; margin: 10px 25px 0px 10px; }
+#chat { width: 687px; margin-top: 20px; padding: 5px; border: 1px solid #888888; background: #222222; color: #eeeeee; font-size: 24px; font-family: Helvetica, Arial; font-weight: normal; display: none; }
+#music { float: right; margin: 15px 4px 0px 0px; display: none; }
+
+#right_col { margin-left: 820px; }
+#console { color: #cccccc; line-height: 12px; padding-top: 30px; height: 602px; overflow: hidden; }
+
+/* console text styles */
+.me {  color: #ffff99; }
+.action { color: #ccffcc; }
+.chat { color: #ccccff; }
+.error { color: #ff6666; }

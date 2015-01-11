@@ -1,0 +1,101 @@
+<!-- nesCanvas Project
+---- Copyright Jason Blatt 2009
+---- Distributed under terms of the GNU General Public License
+----      (http://www.gnu.org/licenses/gpl.txt)
+
+	   This file is part of the nesCanvas Project.
+
+    The nesCanvas Project is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    The nesCanvas Project is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with the nesCanvas Project.  If not, see <http://www.gnu.org/licenses/>.
+
+
+	*** PURPOSE ***
+
+	    Create a avatar based chat using the <canvas> element and ajax (and eventually, websockets)
+
+
+	*** MUCH THANKS ***
+
+	    Sprites - http://www.videogamesprites.net/
+	    Backgrounds - http://www.fantasyanime.com/finalfantasy/ff6/ff6maps.htm
+	    Music - http://ffmusic.ffshrine.org/ff6midis/ff6-midis.php
+	    Flash Player - http://musicplayer.sourceforge.net/
+
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+
+<head>
+	<title>nesCanvas</title>
+	<link rel="stylesheet" href="style.css" type="text/css"  media="screen" />
+	<script type="text/javascript" src="jquery-1.3.min.js"></script>
+	<script type="text/javascript" src="nescanvas.js"></script>
+</head>
+
+<body>
+	<div id="select">
+		<img id="char_sel_img" src="images/select_av.png" />
+		<div id="char_sel">
+			<div class="char" id="terra"><img src="sprites/terra/terra_portrait.gif" /><br />Terra</div>
+			<div class="char" id="locke"><img src="sprites/locke/locke_portrait.gif" /><br />Locke</div>
+			<div class="char" id="mog"><img src="sprites/mog/mog_portrait.gif" /><br />Mog</div>
+			<div class="char" id="shadow"><img src="sprites/shadow/shadow_portrait.gif" /><br />Shadow</div>
+			<div class="char" id="umaro"><img src="sprites/umaro/umaro_portrait.gif" /><br />Umaro</div>
+		</div>
+
+		<img id="chan_sel_img" src="images/select_chan.png" />
+		<div id="chan_sel">
+			<div class="chan" id="narshe"><img src="channels/narshe/narshe_thumb.png" /><br />Narshe</div>
+			<div class="chan" id="figaro"><img src="channels/figaro/figaro_thumb.png" /><br />Figaro</div>
+			<div class="chan" id="nikea"><img src="channels/nikea/nikea_thumb.png" /><br />Nikea</div>
+			<div class="chan" id="floating_island"><img src="channels/floating_island/floating_island_thumb.png" /><br />Floating Island</div>
+		</div>
+
+		<img id="nick_sel_img" src="images/enter_nick.png" />
+		<input type="text" id="nick_sel" /><br /><br />
+
+		<div id="login" value="Login"></div>
+	</div>
+
+	<div id="left_col">
+
+		<div id="info">
+			<b>nesCanvas 0.1a</b><br /><br />
+		</div>
+
+		<div id="background">
+			<canvas id="myCanvas" width="800px" height="598px">
+				oops - your browser doesn't support the canvas element - stop using ie!
+			</canvas>
+		</div>
+
+		<div id="portrait"></div>
+
+		<input type="text" id="chat" />
+
+		<div id="music">
+			<object type="application/x-shockwave-flash" 
+				width="400" height="15" data="xspf_player_slim.swf?playlist_url=midi/playlist.xspf&repeat_playlist=true&player_title=nescanvas">
+				<param   name="movie"  value="xspf_player_slim.swf?playlist_url=midi/playlist.xspf&repeat_playlist=true&player_title=nescanvas" />
+			</object>
+		</div>
+
+	</div>
+
+	<div id="right_col">
+		<div id="console">ready...<br /></div>
+	</div>
+
+
+
+</body></html>
