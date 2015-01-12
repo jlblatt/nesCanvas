@@ -1,3 +1,5 @@
+![nesCanvas screenshot](http://jasonblatt.net/images/portfolio/nescanvas.jpg "nesCanvas screenshot")
+
 nesCanvas was written with the goal of creating an avatar chat client/server without using Flash. The nesCanvas client runs in a browser window using jQuery and <canvas>. The backend is written in Perl.
 
 Demo [here](http://cortexture.net/nescanvas/)
